@@ -3,7 +3,7 @@ import { getTitleAboutTheHour } from "@/utils/getTitleAboutTheHour"
 import { ChangeEventHandler, FocusEventHandler, KeyboardEventHandler, MouseEventHandler, useEffect, useState } from "react";
 import { contrast } from '@/utils/getContrastColor';
 
-const Home = () => {
+const dashboard = () => {
   const [name, setName] = useState('');
   const [bgColor, setBgColor] = useState('');
   const [color, setColor] = useState('#000000')
@@ -557,4 +557,4 @@ const Home = () => {
   )
 }
 
-export default Home
+export default dashboard

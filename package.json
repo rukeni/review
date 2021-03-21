@@ -10,10 +10,12 @@
     "generate-css-types": "tailwindcss-classnames -i ./tailwind.config.js -o ./tailwindcss-classnames.ts"
   },
   "dependencies": {
+    "dayjs": "1.10.4",
     "next": "latest",
     "nextjs-redirect": "5.0.2",
     "react": "^17.0.1",
-    "react-dom": "^17.0.1"
+    "react-dom": "^17.0.1",
+    "string-to-color": "2.2.2"
   },
   "devDependencies": {
     "@babel/core": "7.13.10",
